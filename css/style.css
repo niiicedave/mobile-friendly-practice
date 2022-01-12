@@ -1,1 +1,16 @@
- 
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-image: linear-gradient(#00e6e6, #000000);
+}
+
+header hr {
+  background-image: url(../img/wave.svg);
+}
+
+main {
+  width: 70%;
+  margin: 0;
+}
