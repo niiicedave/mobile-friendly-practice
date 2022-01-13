@@ -14,16 +14,8 @@ header {
   padding-top: 3em;
 }
 
-header h1 {
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #ffffff;
-  margin-bottom: 0;
-}
-
 /* Style the horizontal rule under the page title */
 .header-wave {
-  display: block;
   border: 0;
   height: 12em;
   background-image: url(../img/wave.svg);
@@ -31,10 +23,27 @@ header h1 {
   background-size: cover;
 }
 
+@media (min-width: 480px){
+  header {
+    background: linear-gradient(0deg, #311212, #db6464);
+  }
+
+@media (min-width: 768px){
+    header {
+    background: linear-gradient(0deg, #123114, #68db64);
+  }
+
+@media (min-width: 1024px){
+    header {
+    background: linear-gradient(0deg, #2e3112, #f5f10a);
+  }
+
+
+
 main {
-  /* to indent the text on both sides for readability */
+  /* to indent the text */
   width: 70%;
-  /* to make the main section centered at all times */
+  /* to center the main at all viewport sizes */
   margin: 0 auto;
 }
 
