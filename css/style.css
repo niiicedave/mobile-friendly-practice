@@ -23,22 +23,23 @@ header {
   background-size: cover;
 }
 
-@media (min-width: 480px){
+@media (min-width: 480px) {
   header {
     background: linear-gradient(0deg, #311212, #db6464);
   }
+}
 
-@media (min-width: 768px){
-    header {
+@media (min-width: 768px) {
+  header {
     background: linear-gradient(0deg, #123114, #68db64);
   }
+}
 
-@media (min-width: 1024px){
-    header {
+@media (min-width: 1024px) {
+  header {
     background: linear-gradient(0deg, #2e3112, #f5f10a);
   }
-
-
+}
 
 main {
   /* to indent the text */
