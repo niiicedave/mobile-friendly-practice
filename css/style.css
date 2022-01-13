@@ -10,6 +10,7 @@ header {
   background-image: linear-gradient(#00e6e6, #000000);
   width: 100%;
   vertical-align: bottom;
+  /* Force page title down from the top margin a little*/
   padding-top: 3em;
 }
 
@@ -20,6 +21,7 @@ header h1 {
   margin-bottom: 0;
 }
 
+/* Style the horizontal rule under the page title */
 .header-wave {
   display: block;
   border: 0;
@@ -30,15 +32,35 @@ header h1 {
 }
 
 main {
+  /* to indent the text on both sides for readability */
   width: 70%;
-  margin: 0 12em 0 12em;
+  /* to make the main section centered at all times */
+  margin: 0 auto;
 }
 
 h2 {
   text-transform: uppercase;
   color: #006666;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 1.5em;
 }
 
-section {
+article {
   text-align: right;
+}
+
+/* To add vertical blank space between sections for visual clarity */
+section,
+article {
+  margin: 1em 0em 3em 0em;
+}
+
+footer {
+  background-color: #000000;
+  width: 100%;
+  height: 4em;
+  /* vertically center text in the footer*/
+  padding: 0.3em 0 0.3em 0;
+  color: #ffffff;
+  text-align: center;
 }
